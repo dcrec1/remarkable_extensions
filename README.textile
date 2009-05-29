@@ -10,8 +10,9 @@ h2. USAGE:
 
 <pre>
   <code>
-    describe Spiderman do
-      should_have_a_name :peter
+    describe SitesController do
+      should_not_have_action :destroy
+      should_have_before_filter :require_user, :only => [:edit, :destroy]
     end
   </code>
 </pre>
