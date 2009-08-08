@@ -2,7 +2,7 @@ h2. INSTALLATION:
 
 <pre>
   <code>
-    script/plugin install git://github.com/spiderman/remarkable_extensions.git
+    script/plugin install git://github.com/dcrec1/remarkable_extensions.git
   </code>
 </pre>
 
