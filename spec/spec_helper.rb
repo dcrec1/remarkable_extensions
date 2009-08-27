@@ -42,4 +42,4 @@ require File.join(dir, "..", "lib", "remarkable_extensions")
 # Register folders to example groups
 Spec::Example::ExampleGroupFactory.register(:action_controller, Spec::Rails::Example::ControllerExampleGroup)
 
-Remarkable.add_locale File.join(dir, '..', 'lib', 'en.yml')
+Remarkable.add_locale File.join(dir, '..', 'locales', 'en.yml')
